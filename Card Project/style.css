@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font: 1.5rem "Nunito" ,san-serif;
+    background-color: rgb(129, 106, 228);
+    background-image: radial-gradient(rgb(213, 120, 231),
+     rgb(199, 202, 168));
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     min-width: 400px;
+     
+}
+
+footer,header{
+    background-color: rgba(135, 119, 161, 0.568);
+    position:sticky;
+    text-align: center;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1rem;
+}
+
+header{
+    top: 0;
+    margin-bottom: 1rem;
+}
+nav a{
+    justify-content: space-evenly;
+    
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a{
+    color: purple;
+}
+
+.card{
+    scroll-margin-top: 8rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    margin:1rem ;
+    padding: 3rem;
+    border: 5px double rgba(214, 83, 214, 0.61);
+    border-radius: 15px;
+    
+    
+}
+
+ img{
+    border: 15px double rgba(214, 83, 214, 0.61) ;
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    bottom: 0;
+    font-weight: bold;
+}
+figcaption{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+p{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /* /* FIRST STYLING*/
+/* body{
+    font: 1rem "Nunito" , san-serif;
+    background-color: rgba(85, 199, 193, 0.5);
+    background-image: radial-gradient(rgba(169, 203, 226, 0.384),
+     whitesmoke);
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     
+}
+header,footer{
+    background-color: rgba(18, 228, 81, 0.52);
+    text-align: center;
+    position: sticky;
+    
+}
+header{
+    top: 0;
+}
+
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+nav {
+        font-weight: bold;
+        padding: 0.5rem;
+        justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    bottom: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card{
+        scroll-margin-top: 8rem;
+        width: min(100%,350px);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        border: 2px solid gray;
+        border-radius: 15px;
+        background-color: rgba(187, 183, 178, 0.432);
+        height: auto;
+
+}
+
+.card figure{
+        display: flex;
+        flex-flow: column nowrap;
+
+}
+.card  img{
+    border: 5px double rgba(18, 228, 81, 0.562) ;
+    border-radius: 50%;
+}
+
+.card figcaption{
+    text-align: center;
+    font-weight: bolder;
+    margin: 1rem;
+    font-size: 2rem;
+    text-overflow: clip;
+}  */
